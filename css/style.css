@@ -20,7 +20,7 @@ font-family: 'Noto Sans KR', sans-serif;
 body {
   font-family: 'Noto Sans KR', sans-serif;
   color: #495057;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 30px;
   position: relative;
   background: #fff; }
@@ -843,7 +843,8 @@ text-align: center; }
 .heading-h2 {
   font-size: 30px;
   color: #495057;
-  font-weight: 500; }
+  font-weight: 500;
+ }
   .heading-h2.divider:before {
     position: absolute;
     content: ""; }
@@ -851,7 +852,8 @@ text-align: center; }
 .heading-h3 {
   font-size: 26px;
   font-weight: 700;
-  color: rgb(78, 78, 78); }
+  color: rgb(78, 78, 78); 
+}
 
 .lead {
   font-size: 18px;
@@ -958,7 +960,7 @@ text-align: center; }
     font-size: 69px;
     font-weight: 900;
     font-family: 'Noto Sans KR', sans-serif;
-    color: #535353; }
+    color: #ffc173; }
   .counter-v1 .number-wrap .append-text {
     position: relative;
     top: -30px;
@@ -1632,7 +1634,8 @@ span.error {
   justify-content: flex-end !important;
 }
 .bg4{
-  width: 100%;
+  width: 80%;
+  padding-top: 40px;
 }
 .main_banner{
   display: block;
@@ -1642,4 +1645,7 @@ span.error {
 }
 #about-section{
   background-color: #ebebeb;
+}
+.bg-light{
+  background-color: #fdf2d9!important;
 }
